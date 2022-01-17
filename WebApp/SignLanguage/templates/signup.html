@@ -1,0 +1,15 @@
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='home.css') }}">
+</head>
+<div id="login">
+    <h2 align="right">Sign Language -> Speech</h2>
+    <form name='form-login' method='POST' action="/">
+        <input type="text" id="user" placeholder="Username">
+        <input type="text" id="mail" placeholder="Mail ID">
+        <input type="password" id="pass" placeholder="Password">
+        <input type="submit" value="Create Account">
+    </form>
+</div>
